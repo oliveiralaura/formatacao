@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1f5f57;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    width: 30%;
+    height: 300px;
+    background-color: aliceblue;
+    position: fixed;
+    top: 25%;
+    left: 32%;
+    border-radius: 5px;
+    box-shadow: 3px 2px 15px;
+}
+.resultado{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.caixa, .caixa2{
+    display: flex;
+    width: 80%;
+    height: 100px;
+    margin: 5px auto;
+    position: relative;
+    top: 20px;
+    border: 1px solid #537d75;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0f5f1;
+    box-shadow: 3px 2px 15px #a0f0e0;
+
+}
+.caixa2{
+    position: relative;
+    top: 40px;
+}
+#enviar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    line-height: 30px;
+    width: 80%;
+    height: 300px;
+    
+
+}
+#enviar input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+#enviar label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.sub {
+    background-color: #668e8a;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+button.sub:hover {
+    background-color: #96cac5;
+    color: #323232;
+}
+.mostra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
